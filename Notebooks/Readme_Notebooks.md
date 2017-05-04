@@ -1,4 +1,5 @@
 NOTEBOOKS/SCRIPTS: ZIPPED INTO LARGE FOLDER (Also accessible on GitHub)
+
 **MILESTONE 1:**
 - Milestone_1_summary: final submission for Milestone 1, performs Exploratory Data Analysis of features by genres, including the results of all the notebooks below.
 - Cynthia Project Note.ipynb: Downloads a small subset of movies (top 100 of all time) using the TMDB and IMDB, explores correlation matrix between genres (pairwise counts of movies) and generates correlation matrix figure. Explores movie languages and creates dictionary of movie genres by TMDB ID
