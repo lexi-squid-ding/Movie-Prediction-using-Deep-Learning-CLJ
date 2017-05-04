@@ -29,14 +29,14 @@ NOTEBOOKS/SCRIPTS: ZIPPED INTO LARGE FOLDER (Also accessible on GitHub)
 - Data_preparation_genre_Lexi.ipynb: Preliminary genre predictions from scratch, runs simple 1 layer neural net from posters in 2011-2016, examines baseline model, Creates 2 layer net for comparison with 1 layer net, and experiments with basic changes to network architecture
 - Download Poster URLs from Top 1000 movies of each year from 2005-2010 (6 years).ipynb: Scrapes poster URL data from earlier time period 2005-2010.
 - Finetune_genre.ipynb: Fine-tuning the VGG16 pre-trained model to predict genre models, did not achieve high accuracy but experimented with different methods and assessed model performances. 
-- FineTune_PretrainedCNN_Face.ipynb:
+- FineTune_PretrainedCNN_Face.ipynb: Using finetuned VGG16 model to predict hte number of faces, based on manaully scored gold standard. 
 - NNet_JY.ipynb: Preliminary exploration of neural nets to predict 
 - Milestone_4_Sumary_1,2,3.ipynb (3 files): Milestone 4 summary (in 3 separate files)
 - get_list_poster_names.py: Small script to get the list of Movie IDs with posters
 - Additional Extensions: In this milestone, in addition to trying to predict genre using the fine-tuned and from-scratch models, we also MANUALLY SCORED the number of faces and the title position in movie posters, and trained neural nets on the task of predicting nfaces and title position. The reason why we did this was because we felt that if posters of different genres differ in the number of faces or title position, we might be able to add these features to the genre classification and improve accuracy. In addition, starting from simpler features such as title position and face numbers might be a easier and possible task for built-from-scratch models. 
 
  
-**MILESTONE r5:**
+**MILESTONE 5:**
 - Finetune_genre_animation.ipynb: Fine-tunes the VGG16 pre-trained model to predict animation label
 - Finetune_genre_drama.ipynb: Fine-tunes the VGG16 pre-trained model to predict drama label.
 - Neural_Nets_scratch_Lexi.ipynb: Tunes neural nets from scratch, experimenting with different depths (n layers), dimensionality (n nodes), and dense layer architectures. Tries to overfit small neural nets to data and then experiments with deeper nets (16 layer) from scratch.
